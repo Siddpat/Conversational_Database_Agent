@@ -51,7 +51,7 @@ A sophisticated conversational AI agent that enables natural language interactio
 
 ### 1. Clone the Repository
 ```bash
-git clone <your-repo-url>
+git clone github.com/Siddpat/Conversational_Database_Agent
 cd conversational-database-agent
 ```
 
@@ -61,20 +61,14 @@ pip install -r requirements.txt
 ```
 
 ### 3. Environment Setup
-Create a `.env` file based on `.env.example`:
-
-```bash
-cp .env.example .env
-```
-
-Edit `.env` with your credentials:
+Create and Edit `.env` with your credentials:
 ```env
 # MongoDB Configuration
 MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/
 DATABASE_NAME=sample_analytics
 
 # OpenAI Configuration
-OPENAI_API_KEY=your-openai-api-key-here
+OPENAI_API_KEY=ADD OPENAI KEY HERE
 OPENAI_MODEL=gpt-3.5-turbo
 TEMPERATURE=0.1
 
@@ -192,7 +186,7 @@ User Query → NLP Processing → Intent Classification → Query Generation →
 Database Execution → Response Formatting → Memory Storage → Insight Extraction
 ```
 
-## 🧪 Testing
+## Testing
 
 ### Run All Tests
 ```bash
@@ -328,18 +322,6 @@ pip install -r requirements-dev.txt
 pre-commit install
 ```
 
-### Code Style
-- Follow PEP 8 guidelines
-- Use type hints
-- Write comprehensive docstrings
-- Maintain test coverage >90%
-
-### Submitting Changes
-1. Fork the repository
-2. Create a feature branch
-3. Write tests for new functionality
-4. Ensure all tests pass
-5. Submit a pull request
 
 ## 📈 Roadmap
 
@@ -383,32 +365,4 @@ import logging
 logging.basicConfig(level=logging.DEBUG)
 ```
 
-## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- MongoDB for providing excellent sample datasets
-- OpenAI for powerful language models
-- LangChain for conversation memory frameworks
-- Streamlit for rapid UI development
-
-## 📞 Support
-
-### Documentation
-- [API Documentation](docs/API.md)
-- [Deployment Guide](docs/DEPLOYMENT.md)
-- [Usage Examples](docs/EXAMPLES.md)
-
-### Community
-- GitHub Issues: Report bugs and request features
-- Discussions: Share ideas and ask questions
-- Wiki: Community-maintained documentation
-
-### Professional Support
-For enterprise support and custom implementations, contact the development team.
-
----
-
-**Built with ❤️ for the MongoDB and AI community**
