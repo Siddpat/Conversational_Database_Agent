@@ -34,12 +34,12 @@ A sophisticated conversational AI agent that enables natural language interactio
 ├── streamlit_app.py           # Streamlit web interface
 ├── testing_notebook.ipynb     # Jupyter notebook for testing
 ├── requirements.txt           # Python dependencies
-├── .env.example              # Environment variables template
+├── .env              # Environment variables template
 ├── README.md                 # This file
 └── docs/                     # Additional documentation
-    ├── API.md                # API documentation
-    ├── DEPLOYMENT.md         # Deployment guide
-    └── EXAMPLES.md           # Usage examples
+    ├── API.md                # API documentation(will be added later)
+    ├── DEPLOYMENT.md         # Deployment guide(will be added later)
+    
 ```
 
 ## 🛠 Installation & Setup
